@@ -1,0 +1,50 @@
+{
+  "bot-account": {
+    "username": "Havellsbot",
+    "password": "",
+    "type": "mojang"
+  },
+
+  "server": {
+    "ip": "anantmadi.aternos.me",
+    "port": 48725,
+    "version": "1.12"
+  },
+
+  "position": {
+    "enabled": true,
+    "x": 1111110,
+    "y": 80,
+    "z": 1000
+  },
+
+  "utils": {
+    "auto-auth": {
+      "enabled": true,
+      "password": "12345678"
+    },
+
+    "anti-afk": {
+      "enabled": true,
+      "sneak": true
+    },
+
+    "chat-messages": {
+      "enabled": true
+    ,
+      "repeat": true,
+      "repeat-delay": 600,
+
+      "messages": [
+        "no one",
+        " ",
+        "",
+        "ho"
+      ]
+    },
+
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-recconect-delay":10
+  }
+}
